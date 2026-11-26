@@ -3,7 +3,10 @@
 单词口袋（WordHop）是一个支持个人词库、听写、默写、选择题、拼词游戏和限时 PK 的 Web 应用。它使用 Vue 3、Express 和 MySQL，适合个人、家庭或小型学习小组自行部署。
 
 本文对应仓库中的当前实现。项目不需要 OpenAI API Key，也不依赖大模型服务。
-
+线上使用 地址：http://www.syrkitty.com:5173/ 账号：xiaoming 密码：12345678 截图：
+<img width="2534" height="1341" alt="image" src="https://github.com/user-attachments/assets/91d0e5bf-4f1e-486b-af6f-1e81ad5616f5" />
+<img width="2022" height="1091" alt="image" src="https://github.com/user-attachments/assets/068cf727-a546-4f2d-b9c3-b69c8a78b8fb" />
+欢迎大家邮箱自行注册使用，欢迎留言 174389642@qq.com ！
 ## 功能一览
 
 | 模块 | 可以做什么 |
