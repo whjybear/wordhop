@@ -1,0 +1,54 @@
+:root {
+  --ink: #24344a;
+  --muted: #6f7884;
+  --green: #526f91;
+  --deep: #334f73;
+  --cream: #f7f6f1;
+  --line: #d5d8dc;
+}
+body {
+  background: #f4f3ee;
+  color: var(--ink);
+  font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  background-image: linear-gradient(#263b5710 1px, transparent 1px);
+  background-size: 100% 32px;
+}
+h1,h2,h3,.brand,.unit-no { font-family: "Noto Serif SC", "Songti SC", Georgia, serif !important; }
+.hero,.topbar { padding: 12px 0 16px; border-bottom: 2px solid #334f73; }
+.brand { letter-spacing: .5px; }
+.brand span { border-radius: 3px; transform: none; background: #334f73; }
+.welcome,.study-card,.empty,.auth-card,.complete-card,.admin-panel,.word-editor,.word-search,.my-words {
+  background: #fffefa;
+  border: 1px solid #cfd3d8;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px #24344a0d;
+}
+.welcome { border-top: 4px solid #334f73; }
+.welcome h1,.auth-brand h1 { font-style: normal; }
+.welcome h1 em,.auth-brand em { color: #8a493f; font-style: normal; }
+.mascot { display: none; }
+.stats { margin-top: -12px; }
+.stats>div,.unit,.message-board,.search-results article,.my-words article {
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: none;
+}
+.unit { border-left: 4px solid #667f9c; }
+.unit-no { color: #506987; }
+.eyebrow { color: #7c4a43; letter-spacing: 1.2px; }
+.primary { background: #334f73; border-radius: 4px; }
+.soft,.mode-buttons button,.account,.streak,.library-switch,.score-badge,.hint-btn {
+  border-radius: 4px;
+}
+.mode-buttons button:hover,.soft:hover,.account:hover { border-color: #334f73; color: #334f73; background: #f5f7fa; }
+.section-head { border-bottom: 1px solid #cfd3d8; padding-bottom: 10px; }
+.section-head h2 { font-size: 27px; }
+.wrong-area { border: 1px solid #d4c6a5; border-left: 4px solid #9b7a3d; border-radius: 6px; background: #fffdf5; }
+.message-board { border-top: 3px solid #7c4a43; }
+.listen-orb { background: #e8edf2; border: 1px solid #b8c4d1; }
+.example { background: #f3f2ed; border-left: 3px solid #667f9c; border-radius: 3px; }
+.choices button,.dictation-card input,.memory-card input,.auth-card input { border-radius: 4px; }
+.modal { background: #172334b8; }
+.edge-pet { background: #fffef8e6; border: 1px solid #cfd3d8; }
+.password-fab,.scroll-top { border-radius: 4px; }
+@media(max-width:720px){.hero,.topbar{align-items:flex-start}.welcome{padding:26px 20px}.stats{margin-top:12px}}

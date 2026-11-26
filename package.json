@@ -1,0 +1,17 @@
+{
+  "name": "wordhop",
+  "private": true,
+  "version": "2.0.0",
+  "scripts": {
+    "dev": "concurrently -n WEB,API -c green,blue \"pnpm --dir frontend dev\" \"pnpm --dir server dev\"",
+    "build": "pnpm --dir frontend build",
+    "start": "pnpm --dir server start",
+    "db:init": "pnpm --dir server db:init"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "prettier": "^3.9.5"
+  },
+  "license": "MIT",
+  "description": "单词口袋 WordHop：个人词库、笔记、听写与限时 PK 学习应用"
+}

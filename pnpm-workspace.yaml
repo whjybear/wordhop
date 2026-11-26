@@ -1,0 +1,7 @@
+packages:
+  - frontend
+  - server
+
+# Required by Vite. Allow this dependency's installation script with pnpm 11.
+allowBuilds:
+  esbuild: true

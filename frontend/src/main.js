@@ -1,0 +1,10 @@
+import { createApp } from 'vue'
+import { createPinia } from 'pinia'
+import App from './App.vue'
+import './style.css'
+import './features.css'
+import './library.css'
+import './account.css'
+import './academy.css'
+import './game.css'
+createApp(App).use(createPinia()).mount('#app')
