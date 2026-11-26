@@ -57,13 +57,13 @@ flowchart LR
 从 GitHub 或 Gitee 选择一个地址：
 
 ```bash
-git clone https://github.com/YOUR_NAME/wordhop.git
+git clone https://github.com/whjybear/wordhop.git
 # 或 git clone https://gitee.com/whjybear/wordhop.git
 cd wordhop
 pnpm install --frozen-lockfile
 ```
 
-GitHub 地址中的 `YOUR_NAME` 需替换为实际仓库所有者；Gitee 使用维护者账号 `whjybear`。
+公开仓库：[GitHub](https://github.com/whjybear/wordhop) · [Gitee](https://gitee.com/whjybear/wordhop)。两个平台均使用维护者账号 `whjybear`。
 
 ### 2. 创建数据库
 
